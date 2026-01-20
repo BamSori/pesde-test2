@@ -1,0 +1,12 @@
+name = "storybakery/pesde_test2"
+version = "0.1.0"
+license = "MIT"
+
+[target]
+environment = "lune"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+pesde-test1 = { repo = "https://github.com/BamSori/pesde-test1", rev = "c5fd39dfdab9279674de93adbd36059d3391f13e" }
